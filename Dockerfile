@@ -2,8 +2,9 @@
 # Build-Time Arguments for the Docker Runtime Engine #
 ######################################################
 
-ARG REPO=mcr.microsoft.com/windows/servercore
-ARG TAG
+ARG IMAGE=
+ARG REPO=mcr.microsoft.com/${IMAGE}
+ARG TAG=
 
 #############################################################
 # Base Microsoft Windows Server Core Image w/ IIS Installed #
