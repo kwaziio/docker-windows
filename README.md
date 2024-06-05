@@ -4,9 +4,6 @@ This project manages the creation of a STIG-hardened Windows Docker Image based 
 
 **NOTE: This project is in preview (the hardening process is not yet complete); however, as it is based on the official Microsoft Windows Server image, it is as safe for production use as the official image it is based upon.**
 
-[![pipeline status](https://gitlab.com/kwazi/oss/github/docker-windows/badges/main/pipeline.svg)](https://gitlab.com/kwazi/oss/github/docker-windows/-/commits/main)
-
-
 ## Getting Started
 
 This project leverages Windows container images. The only compliant way to build or operate these images is via a Windows host. Please review Microsoft's guidance regarding [usage restrictions](https://hub.docker.com/_/microsoft-windows-server/).
